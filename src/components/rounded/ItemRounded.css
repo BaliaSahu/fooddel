@@ -1,0 +1,24 @@
+.container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+}
+.contItem{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      
+}
+.contItem:hover{
+      transform: scale(1.03);
+      transition: 0.3s;
+      cursor: pointer;
+}
+#cim{
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+}

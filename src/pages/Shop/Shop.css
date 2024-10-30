@@ -1,0 +1,45 @@
+#her{
+      width:90vw;
+      margin-left: 30px;
+}
+.hero{
+      
+      background-image: url('../../assets/ai1.jpg');
+      background-size:cover ;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 90%;
+      width: 100%;
+      height: 600px;
+      border-radius: 0px 15px 15px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      color:rgb(255, 255, 255);
+      margin-right: 100px;
+}
+.content{
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      opacity: 100%;
+}
+#hb{
+      width: 150px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+}
+.exp{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 20%;
+}
+.exp p{
+      line-height: 30px;
+}
